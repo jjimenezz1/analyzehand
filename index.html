@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cribbage Hand Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cribbage Hand Analyzer</h1>
+        <div class="form">
+            <label for="card1">Card 1 Value:</label>
+            <input type="number" id="card1" name="card1" min="1" max="13">
+            <label for="suit1">Suit (D/C/H/S):</label>
+            <input type="text" id="suit1" name="suit1" maxlength="1">
+            <br>
+            <label for="card2">Card 2 Value:</label>
+            <input type="number" id="card2" name="card2" min="1" max="13">
+            <label for="suit2">Suit (D/C/H/S):</label>
+            <input type="text" id="suit2" name="suit2" maxlength="1">
+            <br>
+            <label for="card3">Card 3 Value:</label>
+            <input type="number" id="card3" name="card3" min="1" max="13">
+            <label for="suit3">Suit (D/C/H/S):</label>
+            <input type="text" id="suit3" name="suit3" maxlength="1">
+            <br>
+            <label for="card4">Card 4 Value:</label>
+            <input type="number" id="card4" name="card4" min="1" max="13">
+            <label for="suit4">Suit (D/C/H/S):</label>
+            <input type="text" id="suit4" name="suit4" maxlength="1">
+            <br>
+            <label for="card5">Card 5 Value:</label>
+            <input type="number" id="card5" name="card5" min="1" max="13">
+            <label for="suit5">Suit (D/C/H/S):</label>
+            <input type="text" id="suit5" name="suit5" maxlength="1">
+            <br>
+            <label for="card6">Card 6 Value:</label>
+            <input type="number" id="card6" name="card6" min="1" max="13">
+            <label for="suit6">Suit (D/C/H/S):</label>
+            <input type="text" id="suit6" name="suit6" maxlength="1">
+            <br>
+            <button onclick="analyzeHand()">Analyze Hand</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
